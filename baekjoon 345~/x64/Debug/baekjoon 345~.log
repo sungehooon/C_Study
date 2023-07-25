@@ -1,0 +1,4 @@
+﻿  baek8.cpp
+D:\programming\C_lang\baekjoon 345~\baek8.cpp(15,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
+D:\programming\C_lang\baekjoon 345~\baek8.cpp(15,11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double *'입니다.
+  baekjoon 345~.vcxproj -> D:\programming\C_lang\baekjoon 345~\x64\Debug\baekjoon 345~.exe
