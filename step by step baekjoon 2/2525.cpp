@@ -34,5 +34,5 @@ int main(void) {
 		
 		A = 0;
 	}
-	printf("%d시 %d분",A ,B);
+	printf("%d시 %d분",A ,B);//시,분 없어도 됨
 }

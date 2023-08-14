@@ -26,20 +26,20 @@ int main(void) {
     int A, B, C;
     scanf("%d %d %d", &A, &B, &C);
 
-    if (A == B && B == C) {
+    if (A == B && B == C) {// A==B==C
         printf("%d", 10000 + A * 1000);
     }
-    else if (A == B || B == C) {
+    else if (A == B || B == C) {//A==B or B==C A!=C
         printf("%d", 1000 + B * 100);
     }
-    else if (C == A) {
+    else if (C == A) { //C==A
         printf("%d", 1000 + C * 100);
     }
     else {
-        if (A > B && A > C) {
+        if (A > B && A > C) {//A가 B와 C보다 클경우
             printf("%d", A * 100);
         }
-        else if (B > A && B > C) {
+        else if (B > A && B > C) {//B가 A와 C보다 클경우
             printf("%d", B * 100);
         }
         else {

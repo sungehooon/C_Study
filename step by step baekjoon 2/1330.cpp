@@ -22,10 +22,10 @@ int main() {
 	if (a > b) {
 		printf(">"); //A가 B보다 큰 경우에는 '>'를 출력한다.    //if a>b printf >
 	}
-	if (a < b) {
+	else if (a < b) {
 		printf("<");//A가 B보다 작은 경우에는 '<'를 출력한다.  //if a<b prinf <
 	}
-	if (a == b) {
+	else if (a == b) {
 		printf("==");//A와 B가 같은 경우에는 '=='를 출력한다.   //if a=b prinf ==
 	}
 }
