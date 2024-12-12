@@ -25,7 +25,7 @@ def equipment(request):
 
 def real_time_detection_view(request):
     context = {
-        'google_api_key': 'AIzaSyBzaBS0PeQKNkE6TC35y1Yows-govsMQdA',  # Google API 키
+        'google_api_key': '',  # Google API 키
         'marker_data': [
             {'latitude': 35.803686, 'longitude': 128.822442, 'title': 'Marker 1', 'icon': '/static/icons/icon1.png'},
             {'latitude': 35.810000, 'longitude': 128.820000, 'title': 'Marker 2', 'icon': '/static/icons/icon2.png'},
